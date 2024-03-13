@@ -9,7 +9,7 @@ class Calculator(tk.Tk):
         self.result = tk.Entry(self, font=("Arial", 26))
         self.result.grid(row = 0, column= 0, columnspan= 4, padx=5, pady=5,
                          ipadx=40, ipady= 20, sticky=tk.W + tk.E)
-        self.result.config(justify=tk.LEFT)
+        self.result.config(justify=tk.RIGHT)
         self.result.configure(bg="gray")
         self.grid_columnconfigure(0, weight = 1)
         
